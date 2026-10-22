@@ -1,0 +1,27 @@
+{
+  "dataset_name": "NASA C-MAPSS Turbofan Engine Degradation Simulation Dataset",
+  "subset": "FD001",
+  "retrieval_timestamp_utc": "2026-10-22T14:00:31.569090+00:00",
+  "sources": {
+    "train_FD001.txt": "https://raw.githubusercontent.com/mapr-demos/predictive-maintenance/master/notebooks/jupyter/Dataset/CMAPSSData/train_FD001.txt",
+    "test_FD001.txt": "https://raw.githubusercontent.com/mapr-demos/predictive-maintenance/master/notebooks/jupyter/Dataset/CMAPSSData/test_FD001.txt",
+    "RUL_FD001.txt": "https://raw.githubusercontent.com/mapr-demos/predictive-maintenance/master/notebooks/jupyter/Dataset/CMAPSSData/RUL_FD001.txt"
+  },
+  "kaggle_competition_url": "https://www.kaggle.com/competitions/predictive-maintenance/data",
+  "nasa_pcoe_url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+  "license_notes": "NASA open science / public domain simulation data published for prognostics research. Commercial/benchmark competition usage terms apply on Kaggle.",
+  "files": {
+    "train": {
+      "size_bytes": 3515356,
+      "sha256": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8"
+    },
+    "test": {
+      "size_bytes": 2228855,
+      "sha256": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851"
+    },
+    "rul": {
+      "size_bytes": 429,
+      "sha256": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca"
+    }
+  }
+}

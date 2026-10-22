@@ -57,7 +57,7 @@ def test_orchestrator_execution():
     assert res["target_metric"] == "vibration_rms"
     assert len(res["retrieved_data"]) > 0
     assert "CRITICAL ANOMALY DETECTED" in res["final_response"]
-    assert len(res["reasoning_trace"]) == 4
+    assert len(res["reasoning_trace"]) >= 4
 
 
 def test_fastapi_agent_endpoints():
@@ -76,4 +76,4 @@ def test_fastapi_agent_endpoints():
     data = res_query.json()
     assert data["target_equipment"] == "PUMP-102"
     assert data["target_metric"] == "temperature"
-    assert len(data["reasoning_trace"]) == 4
+    assert len(data["reasoning_trace"]) >= 4

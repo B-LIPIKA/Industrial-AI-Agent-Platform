@@ -5,3 +5,16 @@ __pycache__/
 *.db
 *.sqlite3
 .pytest_cache/
+.env
+
+# NASA C-MAPSS Raw & Large Data
+data/raw/*.txt
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Saved model artifacts & embeddings cache
+models/saved/*.joblib
+!models/saved/.gitkeep
+rag/storage/
+

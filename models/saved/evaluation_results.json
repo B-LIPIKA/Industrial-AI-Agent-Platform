@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "name": "Historical Trajectory Average Baseline",
+    "test_mae": 32.05,
+    "test_rmse": 40.2,
+    "nasa_score": 25527.8
+  },
+  "models": {
+    "random_forest": {
+      "name": "random_forest",
+      "test_mae": 10.51,
+      "test_rmse": 14.37,
+      "r2_score": 0.88,
+      "nasa_score": 375.8,
+      "improvement_over_baseline_mae": 21.54
+    },
+    "gradient_boosting": {
+      "name": "gradient_boosting",
+      "test_mae": 10.9,
+      "test_rmse": 14.79,
+      "r2_score": 0.873,
+      "nasa_score": 378.3,
+      "improvement_over_baseline_mae": 21.15
+    }
+  },
+  "selected_best_model": "random_forest",
+  "evaluation_metadata": {
+    "dataset": "NASA C-MAPSS FD001",
+    "train_engines": 100,
+    "test_engines": 100,
+    "features_count": 58,
+    "split_protocol": "Official benchmark split (100 run-to-failure training engines, 100 truncated test engines evaluated on ground truth RUL)",
+    "leakage_safeguards": "Rolling window stats computed per-engine strictly within past observed cycles; StandardScaler fitted exclusively on training set"
+  }
+}

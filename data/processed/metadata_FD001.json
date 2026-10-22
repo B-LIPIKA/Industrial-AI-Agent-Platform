@@ -1,0 +1,15 @@
+{
+  "subset": "FD001",
+  "max_rul_clip": 125,
+  "train_engines_count": 100,
+  "train_rows_count": 20631,
+  "test_engines_count": 100,
+  "test_rows_count": 13096,
+  "features_count": 21,
+  "settings_count": 3,
+  "output_files": {
+    "train_processed": "C:\\Users\\kulal\\Downloads\\lipika-portfolio\\NEW_portfolio\\Industrial-AI-Agent-Platform\\data\\processed\\train_FD001_processed.csv",
+    "test_processed": "C:\\Users\\kulal\\Downloads\\lipika-portfolio\\NEW_portfolio\\Industrial-AI-Agent-Platform\\data\\processed\\test_FD001_processed.csv",
+    "test_truth": "C:\\Users\\kulal\\Downloads\\lipika-portfolio\\NEW_portfolio\\Industrial-AI-Agent-Platform\\data\\processed\\test_FD001_truth.csv"
+  }
+}
